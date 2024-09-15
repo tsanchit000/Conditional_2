@@ -1,0 +1,14 @@
+name: Matrix
+on:
+  push:
+jobs:
+    build:
+        runs-on: ubnutu-latest
+        steps:
+          - name: Checkout the code
+            uses: actions/checkout@v3
+            
+             
+        
+
+   
