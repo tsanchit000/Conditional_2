@@ -10,8 +10,6 @@ jobs:
     strategy:
       matrix:          #added matrix for running jobs on differnt os as well as can be differnt java/ node v
         operating-system: [ubuntu-latest,windows-latest]
-
-  
     runs-on: ${{ matrix.operating-system}}
     steps:
       - name: Get code
